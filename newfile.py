@@ -51,15 +51,3 @@ for host in range(int(threads)):
          port = random.randrange(1, 65535, 2)
      at = attack(sys.argv[1], int(port), int(psize))
      at.start()
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
